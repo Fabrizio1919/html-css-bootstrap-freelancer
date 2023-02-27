@@ -1,0 +1,10 @@
+.debug [class^=col]{
+    border: 1px dashed;
+    height: 100px;
+}
+
+.debug .site_header {
+    background-color: aquamarine;
+    height: 55px;
+    
+}
