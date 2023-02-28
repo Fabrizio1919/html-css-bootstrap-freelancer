@@ -8,10 +8,10 @@
     /* height: 55px; */
     
 }
-.debug .site_footer {
+/* .debug .site_footer {
     background-color: blue;
     height: 50px;
-}
+} */
 
 
 
@@ -28,7 +28,7 @@
 }
 
 .img-fluid {
-    max-width:20%;
+    max-width:15%;
     height: auto;
 }
 
@@ -58,4 +58,9 @@
 
 .information {
     background-color: var(--fab-darksoft);
+}
+
+
+.site_footer {
+    background-color: var(--fab-secondary);
 }

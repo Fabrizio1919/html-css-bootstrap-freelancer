@@ -13,25 +13,25 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body class="debug">
+<body class="">
 
     <header class="site_header">
-        <nav class="navbar navbar-expand-lg text-white">
+        <nav class="navbar navbar-expand-lg">
             <div class="container">
-              <a class="navbar-brand" href="#">STRAT BOOTSTRAP</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <a class="navbar-brand text-white" href="#">STRAT BOOTSTRAP</a>
+              <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                    <a class="nav-link active text-white" aria-current="page" href="#">PORTFOLIO</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT</a>
+                    <a class="nav-link text-white" href="#">ABOUT</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link " href="#"  aria-expanded="false">
+                    <a class="nav-link text-white" href="#"  aria-expanded="false">
                       CONTACT
                     </a>
                 </ul>
@@ -63,12 +63,13 @@
 
         </section>
         <!-- ./jumbo -->
+
         <section class="portfolio pt-5 pb-5">
             <div class="container">
                 <h3 class="text-center fs-1">PORTFOLIO</h3>
                 <div class="sbord_dark d-flex justify-content-center align-items-center">
-                    <div class="border_dark px-2 "></div>
-                    <i class="fa fa-star text-black px-2 " aria-hidden="true"></i>
+                    <div class="border_dark px-2"></div>
+                    <i class="fa fa-star text-black px-2" aria-hidden="true"></i>
                     <div class="border_dark"></div>
                 </div>
                 <div class="row gx-4 justify-content-md-center">
@@ -123,8 +124,10 @@
                         <p class="fs-6 text-white">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this templete is the perfect starting point!</p>
                     </div>
                 </div>
-                <button type="button" class="btn btn-outline-light"><i class="fa fa-download" aria-hidden="true"></i>
-                    Download</button>
+                <div class="download text-center">
+                    <button type="button" class="btn btn-outline-light"><i class="fa fa-download" aria-hidden="true"></i>
+                        Download</button>
+                </div>
             </div>
         </section>
         <!-- ./about -->
@@ -137,11 +140,25 @@
                     <i class="fa fa-star text-black px-2 " aria-hidden="true"></i>
                     <div class="border_dark"></div>
                 </div>
-                <div class="row">
-                    <div class="col"></div>
-                </div>
+                <div class="input-group flex-nowrap">
+                    <input type="text" class="form-control border-0 border-bottom" placeholder="Name" aria-label="Username" aria-describedby="addon-wrapping">
+                  </div>
+                  <div class="input-group flex-nowrap">
+                    <input type="text" class="form-control border-0 border-bottom" placeholder="Email Address" aria-label="Email" aria-describedby="addon-wrapping">
+                  </div>
+                  <div class="input-group flex-nowrap">
+                    <input type="text" class="form-control border-0 border-bottom" placeholder="Phone Number" aria-label="Number" aria-describedby="addon-wrapping">
+                  </div>
+                  <div class="input-group flex-nowrap">
+                    <input type="textarea" class="form-control border-0 border-bottom pb-5" placeholder="Message" aria-label="Message" aria-describedby="addon-wrapping">
+                  </div>
+                  <div class="send pt-3">
+                    <button type="button" class="btn btn-success">Send</button>
+                  </div>
+               
             </div>
         </section>
+        <!-- ./contact -->
 
         <section class="information pt-5 pb-5">
             <div class="container">
@@ -166,13 +183,16 @@
                 </div>
             </div>
         </section>
-
+        <!-- ./information -->
 
     </main>
 
-    <footer class="site_footer">
-        <span class="text-center"></span>
+    <footer class="site_footer pb-5 pt-5">
+        <span class="text-center">
+            <p class="text-white">Copyright &copy;Your Web Site 2019</p>
+        </span>
     </footer>
+    <!-- ./site_footer -->
 
 
 
