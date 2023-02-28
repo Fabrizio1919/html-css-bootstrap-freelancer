@@ -64,3 +64,13 @@
 .site_footer {
     background-color: var(--fab-secondary);
 }
+
+.awsome {
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    width: 45px;
+    line-height: 10px;
+    text-align: center;
+    padding: 5px 0;
+}
