@@ -26,3 +26,8 @@
     background-color:var(--fab-secondary);
     
 }
+
+.img-fluid {
+    max-width:30%;
+    height: auto;
+}
