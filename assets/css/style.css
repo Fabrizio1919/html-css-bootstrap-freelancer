@@ -52,3 +52,10 @@
     width: 100px;
 }
 
+.about {
+    background-color: var(--fab-primary);
+}
+
+.information {
+    background-color: var(--fab-darksoft);
+}
