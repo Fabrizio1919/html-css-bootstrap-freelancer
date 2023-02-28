@@ -4,11 +4,25 @@
 }
 
 .debug .site_header {
-    background-color: aquamarine;
-    height: 55px;
+    /* background-color: aquamarine; */
+    /* height: 55px; */
     
 }
 .debug .site_footer {
     background-color: blue;
     height: 50px;
+}
+
+
+
+:root {
+    --fab-primary:#1abc9c;
+    --fab-secondary:#2c3e50;
+    --fab-darksoft: #3a546d;
+}
+
+
+.site_header {
+    background-color:var(--fab-secondary);
+    
 }
