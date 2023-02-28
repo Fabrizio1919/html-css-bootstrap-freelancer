@@ -1,8 +1,8 @@
-.debug [class^=col]{
+/* .debug [class^=col]{
     border: 1px dashed;
     height: 100px;
 }
-
+ */
 .debug .site_header {
     /* background-color: aquamarine; */
     /* height: 55px; */
@@ -40,5 +40,15 @@
     background-color: white;
     height: 3px;
     width: 100px;
-    display:inline-block;
 }
+
+.portfolio img {
+    max-width: 100%;
+}
+
+.border_dark {
+    background-color: black;
+    height: 3px;
+    width: 100px;
+}
+
